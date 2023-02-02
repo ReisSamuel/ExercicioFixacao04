@@ -2,7 +2,7 @@ package br.ufjf.dcc.poo.model;
 
 import java.util.ArrayList;
 
-public class Cliente {
+public class Cliente extends Pessoa{
 	private double limiteCredito;
 	private int cartaoCredito;
 	private String contato;
