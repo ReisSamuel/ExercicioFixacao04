@@ -9,9 +9,9 @@ public class Pedido {
 	private String status;
 	private String observacoes;
 	private Cliente cliente;
-	private ArrayList<ItemPedido> itensPedidos = new ArrayList<>();
+	private ArrayList<ItemPedido> itensPedidos;
 	
-	public void encerraPedido() {
+	public void encerrarPedido() {
 		
 	}
 	public void cancelarPedido() {

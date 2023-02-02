@@ -6,7 +6,7 @@ public class Produto {
 	private String nomeProduto;
 	private int peso;
 	private int qtdeDisponivel;
-	private ArrayList<ItemPedido> itens = new ArrayList<>();
+	private ArrayList<ItemPedido> itens;
 	
 	public Produto consultarProduto() {
 		Produto p = new Produto();

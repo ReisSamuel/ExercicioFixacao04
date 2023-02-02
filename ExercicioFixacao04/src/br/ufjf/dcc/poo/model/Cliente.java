@@ -7,7 +7,7 @@ public class Cliente extends Pessoa{
 	private int cartaoCredito;
 	private String contato;
 	private boolean status;
-	private ArrayList<Pedido> pedidos = new ArrayList<>();
+	private ArrayList<Pedido> pedidos;
 	
 	public double verificaCredito() {
 		return 0;
